@@ -83,6 +83,34 @@ export function PageHeader({
   );
 }
 
+const collage = [
+  { src: "/arcangel-2023.png", position: "center 16%" },
+  { src: "/arcangel-entrevista.jpg", position: "center 22%" },
+  { src: "/arcangel-baja.jpg", position: "center 30%" },
+  { src: "/arcangel-baja.jpg", position: "center 55%" },
+  { src: "/arcangel-2023.png", position: "center 42%" },
+  { src: "/arcangel-entrevista.jpg", position: "center 70%" },
+];
+
+export function PhotoCollage() {
+  return (
+    <div className="pointer-events-none fixed inset-0 z-0" aria-hidden="true">
+      <div className="grid h-full grid-cols-2 grid-rows-3 sm:grid-cols-3 sm:grid-rows-2">
+        {collage.map((photo) => (
+          <img
+            key={`${photo.src}-${photo.position}`}
+            src={photo.src}
+            alt=""
+            className="h-full w-full object-cover opacity-70"
+            style={{ objectPosition: photo.position }}
+          />
+        ))}
+      </div>
+      <div className="absolute inset-0 bg-bg/68" />
+    </div>
+  );
+}
+
 export function SiteFooter({ note }: { note: string }) {
   return (
     <footer className="mt-auto border-t border-line">
@@ -130,6 +158,23 @@ export function SiteFooter({ note }: { note: string }) {
             </Link>
           </nav>
           <p className="mt-3 max-w-md text-sm leading-6 text-mute md:ml-auto md:text-right">{note}</p>
+          <p className="mt-2 max-w-md text-sm leading-6 text-mute md:ml-auto md:text-right">
+            Fotos:{" "}
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Arc%C3%A1ngel_2023_Interview_-_Tony_Dandrades.png"
+              className="underline decoration-line underline-offset-2 hover:text-ink"
+            >
+              Tony Dandrades
+            </a>
+            , CC BY 3.0 ·{" "}
+            <a
+              href="https://commons.wikimedia.org/wiki/File:Don_Omar,_Arcangel_y_Tego_Calder%C3%B3n.jpg"
+              className="underline decoration-line underline-offset-2 hover:text-ink"
+            >
+              Sickscott01
+            </a>
+            , CC BY-SA 4.0.
+          </p>
         </div>
       </div>
     </footer>

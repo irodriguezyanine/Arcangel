@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Newsreader, Outfit } from "next/font/google";
 import { SiteHeader } from "@/components/header";
-import { SiteFooter } from "@/components/site";
+import { PhotoCollage, SiteFooter } from "@/components/site";
 import { albums, categories, categorySongs, sourceNote } from "@/lib/catalog";
 import "./globals.css";
 
@@ -28,7 +28,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={`${outfit.variable} ${newsreader.variable} h-full`}>
-      <body className="flex min-h-full flex-col antialiased">
+      <body className="min-h-full antialiased">
+        <PhotoCollage />
+        <div className="relative z-10 flex min-h-full flex-col">
         <SiteHeader
           albums={albums.map((album) => ({
             slug: album.slug,
@@ -45,6 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </div>
         <SiteFooter note={sourceNote} />
+        </div>
       </body>
     </html>
   );
