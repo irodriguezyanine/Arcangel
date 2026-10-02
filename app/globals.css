@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-outfit);
+  --font-serif: var(--font-newsreader);
+  --color-bg: #0e0c0a;
+  --color-paper: #161310;
+  --color-ink: #f3ecdf;
+  --color-mute: #9c9184;
+  --color-gold: #e7c98a;
+  --color-line: #3a332b;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-outfit), sans-serif;
+}
+
+::selection {
+  background: #e7c98a;
+  color: #0e0c0a;
+}

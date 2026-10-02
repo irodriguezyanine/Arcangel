@@ -1,0 +1,2097 @@
+{
+  "artist": {
+    "name": "Arcángel",
+    "legalName": "Austin Agustín Santos",
+    "aka": "La Maravilla",
+    "born": "1985-12-23"
+  },
+  "source": "Títulos, orden y fechas: MusicBrainz. Las categorías y las notas son lectura editorial del tema público de cada canción. Este archivo no contiene letras.",
+  "categories": [
+    {
+      "id": "amor",
+      "name": "Amor",
+      "line": "Declaración, espera y enamoramiento."
+    },
+    {
+      "id": "desamor",
+      "name": "Desamor",
+      "line": "Ruptura, celos y lo que quedó después."
+    },
+    {
+      "id": "perreo",
+      "name": "Perreo",
+      "line": "Club, cuerpo y letra explícita."
+    },
+    {
+      "id": "bichos",
+      "name": "Bichos",
+      "line": "El círculo, la lealtad y los suyos."
+    },
+    {
+      "id": "calle",
+      "name": "Calle",
+      "line": "El relato de origen, la ruta y el peso."
+    },
+    {
+      "id": "flex",
+      "name": "Flex",
+      "line": "Precio, marca y estatus."
+    },
+    {
+      "id": "introspeccion",
+      "name": "Introspección",
+      "line": "Memoria, fe y la vida fuera del club."
+    }
+  ],
+  "albums": [
+    {
+      "slug": "el-fenomeno",
+      "title": "El fenómeno",
+      "year": 2008,
+      "released": "2008-12-09",
+      "kind": "estudio",
+      "label": "Machete",
+      "blurb": "Debut oficial. Parte del material venía del disco filtrado La Maravilla. Romance de radio y perreo de club en el mismo cuerpo."
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad",
+      "title": "Sentimiento, elegancia & maldad",
+      "year": 2013,
+      "released": "2013-11-19",
+      "kind": "estudio",
+      "label": "Pina",
+      "blurb": "El regreso después de los mixtapes. Austin ordena tres registros —sentimiento, elegancia y maldad— y los usa como mapa del disco."
+    },
+    {
+      "slug": "los-favoritos",
+      "title": "Los favoritos",
+      "year": 2015,
+      "released": "2015-12-11",
+      "kind": "colaborativo",
+      "label": "Pina",
+      "blurb": "Disco con DJ Luian. Perreo de 2015, con 50 sombras de Austin como estandarte."
+    },
+    {
+      "slug": "ares",
+      "title": "Ares",
+      "year": 2018,
+      "released": "2018-07-13",
+      "kind": "estudio",
+      "label": "Pina",
+      "blurb": "El giro al trap y al R&B. Menos romance de radio, más calle, lujo y perreo directo."
+    },
+    {
+      "slug": "historias-de-un-capricornio",
+      "title": "Historias de un capricornio",
+      "year": 2019,
+      "released": "2019-12-20",
+      "kind": "estudio",
+      "label": "Rimas",
+      "blurb": "El disco más autobiográfico de la era Rimas. Sigues con él lo sacó del club hacia la radio pop."
+    },
+    {
+      "slug": "los-favoritos-2",
+      "title": "Los favoritos 2",
+      "year": 2020,
+      "released": "2020-10-16",
+      "kind": "colaborativo",
+      "label": "Rimas",
+      "blurb": "Segunda vuelta con el formato de Los favoritos: colaboraciones, perreo y la segunda vida de Sigues con él."
+    },
+    {
+      "slug": "los-favoritos-2-5",
+      "title": "Los favoritos 2.5",
+      "year": 2021,
+      "released": "2021-09-17",
+      "kind": "colaborativo",
+      "label": "Rimas",
+      "blurb": "Extensión del ciclo. Si te veo y Capos y bichotes marcan los dos polos: el romance y el círculo."
+    },
+    {
+      "slug": "sr-santos",
+      "title": "Sr. Santos",
+      "year": 2022,
+      "released": "2022-12-01",
+      "kind": "estudio",
+      "label": "Rimas",
+      "blurb": "El apellido como título. La jumpa, con Bad Bunny, lo metió en el Billboard 200."
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad",
+      "title": "Sentimiento, elegancia y más maldad",
+      "year": 2023,
+      "released": "2023-11-17",
+      "kind": "estudio",
+      "label": "Rimas",
+      "blurb": "Diez años después del disco de 2013, con invitados de corrido, regional y pop urbano."
+    },
+    {
+      "slug": "papi-arca",
+      "title": "Papi Arca",
+      "year": 2024,
+      "released": "2024-12-19",
+      "kind": "estudio",
+      "label": "Rimas",
+      "blurb": "Disco corto. El círculo (BFF) y el perreo directo ocupan casi todo el metraje."
+    },
+    {
+      "slug": "sr-santos-2",
+      "title": "Sr. Santos II: Sueños de grandeza",
+      "year": 2025,
+      "released": "2025-06-26",
+      "kind": "estudio",
+      "label": "Rimas",
+      "blurb": "Segunda parte del apellido. Flex, perreo y un cierre que vuelve a la ambición personal."
+    },
+    {
+      "slug": "la-8va-maravilla",
+      "title": "La 8va maravilla",
+      "year": 2026,
+      "released": "2026-01-15",
+      "kind": "estudio",
+      "label": "Rimas",
+      "blurb": "El apodo del inicio, otra vez como título. Mezcla memoria, desamor y perreo de ahora."
+    }
+  ],
+  "songs": [
+    {
+      "slug": "el-fenomeno-ahi-eh",
+      "title": "Ahí eh",
+      "album": "el-fenomeno",
+      "track": 1,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-por-amar-a-ciegas",
+      "title": "Por amar a ciegas",
+      "album": "el-fenomeno",
+      "track": 2,
+      "categories": [
+        "amor"
+      ],
+      "note": "El sencillo que abrió el debut. Declaración de amor de la etapa romántica, antes del giro al trap."
+    },
+    {
+      "slug": "el-fenomeno-el-no-se-va-a-enterar",
+      "title": "Él no se va a enterar",
+      "album": "el-fenomeno",
+      "track": 3,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-pienso-en-ti",
+      "title": "Pienso en ti",
+      "album": "el-fenomeno",
+      "track": 4,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-demente-bailando",
+      "title": "Demente bailando",
+      "album": "el-fenomeno",
+      "track": 5,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-agresivo-3",
+      "title": "Agresivo 3",
+      "album": "el-fenomeno",
+      "track": 6,
+      "categories": [
+        "perreo"
+      ],
+      "note": "Tercera vuelta de Agresivo, el tema del dúo con De La Ghetto. Ya en solitario, sigue siendo perreo de esa era."
+    },
+    {
+      "slug": "el-fenomeno-ta-bueno-el-ambiente",
+      "title": "Ta' bueno el ambiente",
+      "album": "el-fenomeno",
+      "track": 7,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-i-got-flow",
+      "title": "I Got Flow",
+      "album": "el-fenomeno",
+      "track": 8,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-fuiste-tu-quien-perdio",
+      "title": "Fuiste tú quien perdió",
+      "album": "el-fenomeno",
+      "track": 9,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-yo-te-enseno",
+      "title": "Yo te enseño",
+      "album": "el-fenomeno",
+      "track": 10,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-nada-malo",
+      "title": "Nada malo",
+      "album": "el-fenomeno",
+      "track": 11,
+      "categories": []
+    },
+    {
+      "slug": "el-fenomeno-aprovecha-el-tiempo",
+      "title": "Aprovecha el tiempo",
+      "album": "el-fenomeno",
+      "track": 12,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-enamorado-de-ti",
+      "title": "Enamorado de ti",
+      "album": "el-fenomeno",
+      "track": 13,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-quimica-sustancia",
+      "title": "Química sustancia",
+      "album": "el-fenomeno",
+      "track": 14,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-pa-que-la-pases-bien",
+      "title": "Pa' que la pases bien",
+      "album": "el-fenomeno",
+      "track": 15,
+      "categories": [
+        "perreo"
+      ],
+      "note": "Salió del disco filtrado La Maravilla y llegó a la radio urbana de Estados Unidos antes del álbum oficial. Perreo de fiesta."
+    },
+    {
+      "slug": "el-fenomeno-si",
+      "title": "Sí",
+      "album": "el-fenomeno",
+      "track": 16,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-ganas-de-ti",
+      "title": "Ganas de ti",
+      "album": "el-fenomeno",
+      "track": 17,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "el-fenomeno-mi-primera-cancion",
+      "title": "Mi primera canción",
+      "album": "el-fenomeno",
+      "track": 18,
+      "categories": [
+        "introspeccion"
+      ],
+      "note": "Austin se presenta en primera persona, fuera del personaje de club."
+    },
+    {
+      "slug": "el-fenomeno-chica-virtual",
+      "title": "Chica virtual",
+      "album": "el-fenomeno",
+      "track": 19,
+      "categories": [
+        "amor"
+      ],
+      "note": "Romance por internet, de cuando ese escenario todavía era novedad en el género."
+    },
+    {
+      "slug": "el-fenomeno-ahi-eh-predi-club-version",
+      "title": "Ahí eh (Predi club version)",
+      "album": "el-fenomeno",
+      "track": 20,
+      "categories": [
+        "perreo"
+      ],
+      "version": true
+    },
+    {
+      "slug": "el-fenomeno-por-amar-a-ciegas-hip-hop-version",
+      "title": "Por amar a ciegas (hip-hop version)",
+      "album": "el-fenomeno",
+      "track": 21,
+      "categories": [
+        "amor"
+      ],
+      "version": true
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-dios-te-bendiga",
+      "title": "Dios te bendiga",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 1,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-hace-mucho-tiempo",
+      "title": "Hace mucho tiempo",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 2,
+      "categories": [
+        "introspeccion",
+        "calle"
+      ],
+      "note": "Mirada atrás al dúo, a la calle y al tiempo que pasó entre los mixtapes y este disco."
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-contigo-quiero-amores",
+      "title": "Contigo quiero amores",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 3,
+      "categories": [
+        "amor"
+      ],
+      "note": "La cara romántica del disco de 2013: quiere amores, no solo la noche."
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-sola",
+      "title": "Sola",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 4,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-ire-a-buscarte",
+      "title": "Iré a buscarte",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 5,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-gucci-boys-club",
+      "title": "Gucci Boys Club",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 6,
+      "categories": [
+        "bichos",
+        "flex"
+      ],
+      "note": "El club de los suyos. Estatus y pertenencia, el núcleo de la categoría bichos."
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-cuando-tu-no-estas",
+      "title": "Cuando tú no estás",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 7,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-como-tiene-que-ser",
+      "title": "Como tiene que ser",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 8,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-pakas-de-100",
+      "title": "Pakas de 100",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 9,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-sem",
+      "title": "SEM",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 10,
+      "categories": [
+        "introspeccion",
+        "flex"
+      ],
+      "note": "La tesis del álbum en una pista: sentimiento, elegancia y maldad como tres registros del mismo artista."
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-diferente",
+      "title": "Diferente",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 11,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-ayer-escuche-una-voz",
+      "title": "Ayer escuché una voz",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 12,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-me-myself-and-my-money",
+      "title": "Me, Myself and My Money",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 13,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-que-le-den",
+      "title": "Que le den",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 14,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-le-llego-donde-sea",
+      "title": "Le llego donde sea",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 15,
+      "categories": [
+        "calle",
+        "flex"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-lentamente",
+      "title": "Lentamente",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 16,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-tiene-un-piquete",
+      "title": "Tiene un piquete",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 17,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-maldad-por-la-plata-baila-el-mono",
+      "title": "Por la plata baila el mono",
+      "album": "sentimiento-elegancia-maldad",
+      "track": 18,
+      "categories": [
+        "flex",
+        "calle"
+      ]
+    },
+    {
+      "slug": "los-favoritos-los-favoritos",
+      "title": "Los favoritos",
+      "album": "los-favoritos",
+      "track": 1,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "los-favoritos-pensandote",
+      "title": "Pensándote",
+      "album": "los-favoritos",
+      "track": 2,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-soltera",
+      "title": "Soltera",
+      "album": "los-favoritos",
+      "track": 3,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-50-sombras-de-austin",
+      "title": "50 sombras de Austin",
+      "album": "los-favoritos",
+      "track": 4,
+      "categories": [
+        "perreo"
+      ],
+      "note": "El hit explícito del disco con DJ Luian. El nombre Austin funciona aquí como marca de perreo."
+    },
+    {
+      "slug": "los-favoritos-imaginate",
+      "title": "Imagínate",
+      "album": "los-favoritos",
+      "track": 5,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-decidete",
+      "title": "Decídete",
+      "album": "los-favoritos",
+      "track": 6,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-mas-piquete-que-yo",
+      "title": "Más piquete que yo",
+      "album": "los-favoritos",
+      "track": 7,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-solo-tu",
+      "title": "Sólo tú",
+      "album": "los-favoritos",
+      "track": 8,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-nadie",
+      "title": "Nadie",
+      "album": "los-favoritos",
+      "track": 9,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-pura-sensualidad",
+      "title": "Pura sensualidad",
+      "album": "los-favoritos",
+      "track": 10,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-la-loca",
+      "title": "La loca",
+      "album": "los-favoritos",
+      "track": 11,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-pa-l-muro",
+      "title": "Pa'l muro",
+      "album": "los-favoritos",
+      "track": 12,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-el-favorito-de-tu-gata",
+      "title": "El favorito de tu gata",
+      "album": "los-favoritos",
+      "track": 13,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-chikiribon",
+      "title": "Chikiribón",
+      "album": "los-favoritos",
+      "track": 14,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-vacilar-y-joder",
+      "title": "Vacilar y joder",
+      "album": "los-favoritos",
+      "track": 15,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-mami-que-tu-tienes",
+      "title": "Mami, qué tú tienes",
+      "album": "los-favoritos",
+      "track": 16,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-tu-cuerpo-me-hace-bien",
+      "title": "Tu cuerpo me hace bien",
+      "album": "los-favoritos",
+      "track": 17,
+      "categories": [
+        "perreo"
+      ],
+      "note": "Uno de los perreos de radio del ciclo Los favoritos. El cuerpo es el tema entero."
+    },
+    {
+      "slug": "los-favoritos-soy-dueno",
+      "title": "Soy dueño",
+      "album": "los-favoritos",
+      "track": 18,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "ares-atmosfera",
+      "title": "Atmósfera",
+      "album": "ares",
+      "track": 1,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "ares-se-supone",
+      "title": "Se supone",
+      "album": "ares",
+      "track": 2,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "ares-original",
+      "title": "Original",
+      "album": "ares",
+      "track": 3,
+      "categories": [
+        "flex"
+      ],
+      "note": "El puente con Bad Bunny. Defensa del estilo propio en el turno del trap latino."
+    },
+    {
+      "slug": "ares-date-cuenta",
+      "title": "Date cuenta",
+      "album": "ares",
+      "track": 4,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "ares-mi-primer-kilo",
+      "title": "Mi primer kilo",
+      "album": "ares",
+      "track": 5,
+      "categories": [
+        "calle"
+      ],
+      "note": "Relato de calle en primera persona. El más narrativo de Ares."
+    },
+    {
+      "slug": "ares-corte-porte-y-elegancia",
+      "title": "Corte, porte y elegancia",
+      "album": "ares",
+      "track": 6,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "ares-los-3",
+      "title": "Los 3",
+      "album": "ares",
+      "track": 7,
+      "categories": []
+    },
+    {
+      "slug": "ares-me-gusta",
+      "title": "Me gusta",
+      "album": "ares",
+      "track": 8,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "ares-victoria",
+      "title": "Victoria",
+      "album": "ares",
+      "track": 9,
+      "categories": [
+        "introspeccion",
+        "flex"
+      ]
+    },
+    {
+      "slug": "ares-en-su-boca",
+      "title": "En su boca",
+      "album": "ares",
+      "track": 10,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "ares-pa-morir-se-nace",
+      "title": "Pa' morir se nace",
+      "album": "ares",
+      "track": 11,
+      "categories": [
+        "calle",
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "ares-de-la-renta",
+      "title": "De la renta",
+      "album": "ares",
+      "track": 12,
+      "categories": [
+        "calle"
+      ]
+    },
+    {
+      "slug": "ares-lo-que-sea",
+      "title": "Lo que sea",
+      "album": "ares",
+      "track": 13,
+      "categories": []
+    },
+    {
+      "slug": "ares-piernas-en-el-aire",
+      "title": "Piernas en el aire",
+      "album": "ares",
+      "track": 14,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "ares-un-vacilon-young-maelo",
+      "title": "Un vacilón (Young Maelo)",
+      "album": "ares",
+      "track": 15,
+      "categories": [
+        "perreo",
+        "flex"
+      ]
+    },
+    {
+      "slug": "ares-caribbean-air",
+      "title": "Caribbean Air",
+      "album": "ares",
+      "track": 16,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "ares-balanceate",
+      "title": "Balancéate",
+      "album": "ares",
+      "track": 17,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "ares-el-granjero",
+      "title": "El granjero",
+      "album": "ares",
+      "track": 18,
+      "categories": [
+        "perreo"
+      ],
+      "note": "Perreo directo, de los más explícitos del disco."
+    },
+    {
+      "slug": "historias-de-un-capricornio-mi-testimonio",
+      "title": "Mi testimonio",
+      "album": "historias-de-un-capricornio",
+      "track": 1,
+      "categories": [
+        "introspeccion"
+      ],
+      "note": "Apertura en modo testimonio. El disco avisa que va a hablar de él, no solo del club."
+    },
+    {
+      "slug": "historias-de-un-capricornio-al-volante",
+      "title": "Al volante",
+      "album": "historias-de-un-capricornio",
+      "track": 2,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-rehen",
+      "title": "Rehén",
+      "album": "historias-de-un-capricornio",
+      "track": 3,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-ponte-bonita",
+      "title": "Ponte bonita",
+      "album": "historias-de-un-capricornio",
+      "track": 4,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-infeliz",
+      "title": "Infeliz",
+      "album": "historias-de-un-capricornio",
+      "track": 5,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-video-llamada",
+      "title": "Video llamada",
+      "album": "historias-de-un-capricornio",
+      "track": 6,
+      "categories": [
+        "amor",
+        "perreo"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-doble-cara",
+      "title": "Doble cara",
+      "album": "historias-de-un-capricornio",
+      "track": 7,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-habitos",
+      "title": "Hábitos",
+      "album": "historias-de-un-capricornio",
+      "track": 8,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-llename-de-luz",
+      "title": "Lléname de luz",
+      "album": "historias-de-un-capricornio",
+      "track": 9,
+      "categories": [
+        "amor",
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-no-salgo-de-casa",
+      "title": "No salgo de casa",
+      "album": "historias-de-un-capricornio",
+      "track": 10,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-sigues-con-el",
+      "title": "Sigues con él",
+      "album": "historias-de-un-capricornio",
+      "track": 11,
+      "categories": [
+        "desamor"
+      ],
+      "note": "El corte que cruzó a la radio pop. Desamor después de la ruptura. El remix con Romeo Santos, en Los favoritos 2, fue su segunda vida."
+    },
+    {
+      "slug": "historias-de-un-capricornio-capricornio",
+      "title": "Capricornio",
+      "album": "historias-de-un-capricornio",
+      "track": 12,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "historias-de-un-capricornio-memoria-rota",
+      "title": "Memoria rota",
+      "album": "historias-de-un-capricornio",
+      "track": 13,
+      "categories": [
+        "desamor"
+      ],
+      "note": "Desamor que se queda en la memoria, pareja natural de Sigues con él dentro del mismo disco."
+    },
+    {
+      "slug": "historias-de-un-capricornio-te-esperare",
+      "title": "Te esperaré",
+      "album": "historias-de-un-capricornio",
+      "track": 14,
+      "categories": [
+        "amor"
+      ],
+      "note": "Espera romántica. De las pocas baladas limpias del disco."
+    },
+    {
+      "slug": "historias-de-un-capricornio-invicto",
+      "title": "Invicto",
+      "album": "historias-de-un-capricornio",
+      "track": 15,
+      "categories": [
+        "introspeccion",
+        "flex"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-payaso",
+      "title": "Payaso",
+      "album": "los-favoritos-2",
+      "track": 1,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-amantes-amigos",
+      "title": "Amantes & amigos",
+      "album": "los-favoritos-2",
+      "track": 2,
+      "categories": [
+        "amor",
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-satisfaccion",
+      "title": "Satisfacción",
+      "album": "los-favoritos-2",
+      "track": 3,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-sigas-moviendo",
+      "title": "Sigas moviendo",
+      "album": "los-favoritos-2",
+      "track": 4,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-normal",
+      "title": "Normal",
+      "album": "los-favoritos-2",
+      "track": 5,
+      "categories": []
+    },
+    {
+      "slug": "los-favoritos-2-un-ano-tarde",
+      "title": "Un año tarde",
+      "album": "los-favoritos-2",
+      "track": 6,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-aparentemente-2",
+      "title": "Aparentemente 2",
+      "album": "los-favoritos-2",
+      "track": 7,
+      "categories": [
+        "amor"
+      ],
+      "note": "Segunda parte de Aparentemente, el clásico del dúo con De La Ghetto: la relación que se sostiene en secreto."
+    },
+    {
+      "slug": "los-favoritos-2-emilio-y-gloria",
+      "title": "Emilio y Gloria",
+      "album": "los-favoritos-2",
+      "track": 8,
+      "categories": []
+    },
+    {
+      "slug": "los-favoritos-2-no-se-enamora",
+      "title": "No se enamora",
+      "album": "los-favoritos-2",
+      "track": 9,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-el-bueno-el-malo",
+      "title": "El bueno & El malo",
+      "album": "los-favoritos-2",
+      "track": 10,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-matarse-solita",
+      "title": "Matarse solita",
+      "album": "los-favoritos-2",
+      "track": 11,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-pilonea",
+      "title": "Pilonea",
+      "album": "los-favoritos-2",
+      "track": 12,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-frio",
+      "title": "Frío",
+      "album": "los-favoritos-2",
+      "track": 13,
+      "categories": []
+    },
+    {
+      "slug": "los-favoritos-2-todos-la-conocen",
+      "title": "Todos la conocen",
+      "album": "los-favoritos-2",
+      "track": 14,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-se-porta-mal",
+      "title": "Se porta mal",
+      "album": "los-favoritos-2",
+      "track": 15,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-tussi",
+      "title": "Tussi",
+      "album": "los-favoritos-2",
+      "track": 16,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-el-favorito",
+      "title": "El favorito",
+      "album": "los-favoritos-2",
+      "track": 17,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-sigues-con-el-remix",
+      "title": "Sigues con él (remix)",
+      "album": "los-favoritos-2",
+      "track": 18,
+      "categories": [
+        "desamor"
+      ],
+      "version": true
+    },
+    {
+      "slug": "los-favoritos-2-5-flow-violento",
+      "title": "Flow violento",
+      "album": "los-favoritos-2-5",
+      "track": 1,
+      "categories": [
+        "calle"
+      ],
+      "note": "El flow como amenaza. Calle, no conquista."
+    },
+    {
+      "slug": "los-favoritos-2-5-si-te-veo",
+      "title": "Si te veo",
+      "album": "los-favoritos-2-5",
+      "track": 2,
+      "categories": [
+        "amor",
+        "perreo"
+      ],
+      "note": "El sencillo con Jay Wheeler y Myke Towers. Romance de club que entró en las listas de España."
+    },
+    {
+      "slug": "los-favoritos-2-5-con-sus-b",
+      "title": "Con sus B",
+      "album": "los-favoritos-2-5",
+      "track": 3,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-5-hijuepu",
+      "title": "Hijuepu",
+      "album": "los-favoritos-2-5",
+      "track": 4,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-5-insegura",
+      "title": "Insegura",
+      "album": "los-favoritos-2-5",
+      "track": 5,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-5-mia",
+      "title": "Mía",
+      "album": "los-favoritos-2-5",
+      "track": 6,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-5-na-de-eso",
+      "title": "Na’ de eso",
+      "album": "los-favoritos-2-5",
+      "track": 7,
+      "categories": []
+    },
+    {
+      "slug": "los-favoritos-2-5-todo-caro",
+      "title": "Todo caro",
+      "album": "los-favoritos-2-5",
+      "track": 8,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-5-enfermo",
+      "title": "Enfermo",
+      "album": "los-favoritos-2-5",
+      "track": 9,
+      "categories": []
+    },
+    {
+      "slug": "los-favoritos-2-5-no-quiere-novio",
+      "title": "No quiere novio",
+      "album": "los-favoritos-2-5",
+      "track": 10,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-5-capos-y-bichotes",
+      "title": "Capos y bichotes",
+      "album": "los-favoritos-2-5",
+      "track": 11,
+      "categories": [
+        "bichos",
+        "calle"
+      ],
+      "note": "El corte donde el rango y el círculo son el tema. Aquí «bichotes» nombra a los suyos, no a una pareja."
+    },
+    {
+      "slug": "los-favoritos-2-5-es-complicado",
+      "title": "Es complicado",
+      "album": "los-favoritos-2-5",
+      "track": 12,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-5-no-hay-perdon",
+      "title": "No hay perdón",
+      "album": "los-favoritos-2-5",
+      "track": 13,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "los-favoritos-2-5-nintendo",
+      "title": "Nintendo",
+      "album": "los-favoritos-2-5",
+      "track": 14,
+      "categories": []
+    },
+    {
+      "slug": "los-favoritos-2-5-batman-en-can-am",
+      "title": "Batman en Can Am",
+      "album": "los-favoritos-2-5",
+      "track": 15,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-js4e",
+      "title": "JS4E",
+      "album": "sr-santos",
+      "track": 1,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-portobello",
+      "title": "PortoBello",
+      "album": "sr-santos",
+      "track": 2,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-la-jumpa",
+      "title": "La jumpa",
+      "album": "sr-santos",
+      "track": 3,
+      "categories": [
+        "flex",
+        "perreo"
+      ],
+      "note": "Con Bad Bunny. El tema que empujó Sr. Santos hasta el Billboard 200. Flex y perreo de estadio."
+    },
+    {
+      "slug": "sr-santos-la-roca",
+      "title": "La roca",
+      "album": "sr-santos",
+      "track": 4,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-bottas",
+      "title": "Bottas",
+      "album": "sr-santos",
+      "track": 5,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sr-santos-subimos-de-precio",
+      "title": "Subimos de precio",
+      "album": "sr-santos",
+      "track": 6,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-digitos",
+      "title": "Dígitos",
+      "album": "sr-santos",
+      "track": 7,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-no-te-vayas",
+      "title": "No te vayas",
+      "album": "sr-santos",
+      "track": 8,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "sr-santos-la-ruta",
+      "title": "La ruta",
+      "album": "sr-santos",
+      "track": 9,
+      "categories": [
+        "calle"
+      ]
+    },
+    {
+      "slug": "sr-santos-spicy-crab",
+      "title": "Spicy Crab",
+      "album": "sr-santos",
+      "track": 10,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-papa-noel",
+      "title": "Papá Noel",
+      "album": "sr-santos",
+      "track": 11,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-kilimanjaro",
+      "title": "Kilimanjaro",
+      "album": "sr-santos",
+      "track": 12,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-sprinter",
+      "title": "Sprinter",
+      "album": "sr-santos",
+      "track": 13,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-de-negro",
+      "title": "De negro",
+      "album": "sr-santos",
+      "track": 14,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-entonces",
+      "title": "Entonces",
+      "album": "sr-santos",
+      "track": 15,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-fendace",
+      "title": "Fendace",
+      "album": "sr-santos",
+      "track": 16,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-sin-scotti",
+      "title": "Sin Scotti",
+      "album": "sr-santos",
+      "track": 17,
+      "categories": [
+        "introspeccion"
+      ],
+      "note": "Cierre íntimo de Sr. Santos, fuera del registro de club."
+    },
+    {
+      "slug": "sr-santos-mmb-s",
+      "title": "MMB's",
+      "album": "sr-santos",
+      "track": 18,
+      "categories": [],
+      "skit": true
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-glory",
+      "title": "Glory",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 1,
+      "categories": []
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-el-palo",
+      "title": "El palo",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 2,
+      "categories": []
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-me-gusta-tu-flow",
+      "title": "Me gusta tu flow",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 3,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-pluton",
+      "title": "Plutón",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 4,
+      "categories": []
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-alv",
+      "title": "ALV",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 5,
+      "categories": [
+        "amor"
+      ],
+      "note": "Con Grupo Frontera. Romance con acento regional, lejos del perreo de club."
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-antonio-banderas",
+      "title": "Antonio Banderas",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 6,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-rosita",
+      "title": "Rosita",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 7,
+      "categories": []
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-los-roques",
+      "title": "Los Roques",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 8,
+      "categories": [
+        "flex"
+      ],
+      "note": "Con Quevedo. Vacación, lujo y escape."
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-psicopata",
+      "title": "Psicópata",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 9,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-fp",
+      "title": "FP",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 10,
+      "categories": [
+        "perreo"
+      ],
+      "note": "Con Rauw Alejandro. Perreo corto y directo."
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-que-tengo-que-hacer",
+      "title": "Qué tengo que hacer",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 11,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-condado",
+      "title": "Condado",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 12,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-yoshi",
+      "title": "Yoshi",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 13,
+      "categories": []
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-bali",
+      "title": "Bali",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 14,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-la-chamba",
+      "title": "La chamba",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 15,
+      "categories": [
+        "calle"
+      ],
+      "note": "Con Peso Pluma. El trabajo y la calle, en el idioma del corrido."
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-rapido",
+      "title": "Rápido",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 16,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-no-tiene-nombre-esta-cancion",
+      "title": "No tiene nombre esta canción",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 17,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-arca-10mil",
+      "title": "Arca 10mil",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 18,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sentimiento-elegancia-mas-maldad-los-tiempos-cambian",
+      "title": "Los tiempos cambian",
+      "album": "sentimiento-elegancia-mas-maldad",
+      "track": 19,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "papi-arca-la-franquicia",
+      "title": "La franquicia",
+      "album": "papi-arca",
+      "track": 1,
+      "categories": [
+        "flex",
+        "bichos"
+      ]
+    },
+    {
+      "slug": "papi-arca-bff",
+      "title": "BFF",
+      "album": "papi-arca",
+      "track": 2,
+      "categories": [
+        "bichos"
+      ],
+      "note": "Con Eladio Carrión. Lealtad de círculo, no de pareja."
+    },
+    {
+      "slug": "papi-arca-la-pared",
+      "title": "La pared",
+      "album": "papi-arca",
+      "track": 3,
+      "categories": []
+    },
+    {
+      "slug": "papi-arca-exito",
+      "title": "Éxito",
+      "album": "papi-arca",
+      "track": 4,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "papi-arca-la-varita",
+      "title": "La varita",
+      "album": "papi-arca",
+      "track": 5,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "papi-arca-pa-alla",
+      "title": "Pa’ allá",
+      "album": "papi-arca",
+      "track": 6,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "papi-arca-bien-duro",
+      "title": "Bien duro",
+      "album": "papi-arca",
+      "track": 7,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "papi-arca-thc",
+      "title": "THC",
+      "album": "papi-arca",
+      "track": 8,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "papi-arca-besitos-pa-esas-nalgas",
+      "title": "Besitos pa’ esas nalgas",
+      "album": "papi-arca",
+      "track": 9,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-apocalipsis",
+      "title": "Apocalipsis",
+      "album": "sr-santos-2",
+      "track": 1,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-noche-de-sexxx",
+      "title": "Noche de sexxx",
+      "album": "sr-santos-2",
+      "track": 2,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-gohan-y-goku",
+      "title": "Gohan y Goku",
+      "album": "sr-santos-2",
+      "track": 3,
+      "categories": [
+        "bichos"
+      ],
+      "note": "Metáfora de dúo: dos que pelean del mismo lado. Lealtad, no romance."
+    },
+    {
+      "slug": "sr-santos-2-wells-fargo",
+      "title": "Wells Fargo",
+      "album": "sr-santos-2",
+      "track": 4,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-5-pa-las-12",
+      "title": "5 pa las 12",
+      "album": "sr-santos-2",
+      "track": 5,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-don-francisco",
+      "title": "Don Francisco",
+      "album": "sr-santos-2",
+      "track": 6,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-2-en-tus-suenos",
+      "title": "En tus sueños",
+      "album": "sr-santos-2",
+      "track": 7,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-sin-embargo",
+      "title": "Sin embargo",
+      "album": "sr-santos-2",
+      "track": 8,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-2-flash-foto",
+      "title": "Flash foto",
+      "album": "sr-santos-2",
+      "track": 9,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-2-mi-peor-momento",
+      "title": "Mi peor momento",
+      "album": "sr-santos-2",
+      "track": 10,
+      "categories": [
+        "introspeccion",
+        "desamor"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-abc",
+      "title": "ABC",
+      "album": "sr-santos-2",
+      "track": 11,
+      "categories": []
+    },
+    {
+      "slug": "sr-santos-2-jack-jack-interludio",
+      "title": "Jack Jack interludio",
+      "album": "sr-santos-2",
+      "track": 12,
+      "categories": [],
+      "skit": true
+    },
+    {
+      "slug": "sr-santos-2-frank-sinatra",
+      "title": "Frank Sinatra",
+      "album": "sr-santos-2",
+      "track": 13,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-hasta-que-el-de-arriba-me-quite",
+      "title": "Hasta que el de arriba me quite",
+      "album": "sr-santos-2",
+      "track": 14,
+      "categories": [
+        "introspeccion",
+        "calle"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-sativa",
+      "title": "Sativa",
+      "album": "sr-santos-2",
+      "track": 15,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-quien-contra-mi",
+      "title": "Quién contra mí",
+      "album": "sr-santos-2",
+      "track": 16,
+      "categories": [
+        "flex",
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-mucho-ticket",
+      "title": "Mucho ticket",
+      "album": "sr-santos-2",
+      "track": 17,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "sr-santos-2-suenos-de-grandeza",
+      "title": "Sueños de grandeza",
+      "album": "sr-santos-2",
+      "track": 18,
+      "categories": [
+        "introspeccion"
+      ],
+      "note": "El título del disco como cierre. La ambición personal, después del flex."
+    },
+    {
+      "slug": "la-8va-maravilla-lucido",
+      "title": "Lúcido",
+      "album": "la-8va-maravilla",
+      "track": 1,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-la-8va-maravilla",
+      "title": "La 8va maravilla",
+      "album": "la-8va-maravilla",
+      "track": 2,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-honesto",
+      "title": "Honesto",
+      "album": "la-8va-maravilla",
+      "track": 3,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-lluvia",
+      "title": "Lluvia",
+      "album": "la-8va-maravilla",
+      "track": 4,
+      "categories": []
+    },
+    {
+      "slug": "la-8va-maravilla-hoy-se-guaya",
+      "title": "HOY SE GUAYA",
+      "album": "la-8va-maravilla",
+      "track": 5,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-chula",
+      "title": "Chula",
+      "album": "la-8va-maravilla",
+      "track": 6,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-fecha-de-vencimiento",
+      "title": "Fecha de vencimiento",
+      "album": "la-8va-maravilla",
+      "track": 7,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-historia",
+      "title": "Historia",
+      "album": "la-8va-maravilla",
+      "track": 8,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-me-danas-la-mente",
+      "title": "Me dañas la mente",
+      "album": "la-8va-maravilla",
+      "track": 9,
+      "categories": [
+        "amor"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-un-shot",
+      "title": "Un shot",
+      "album": "la-8va-maravilla",
+      "track": 10,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-te-extrano",
+      "title": "Te extraño",
+      "album": "la-8va-maravilla",
+      "track": 11,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-mirame-baby",
+      "title": "Mírame baby",
+      "album": "la-8va-maravilla",
+      "track": 12,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-cafe-tibio",
+      "title": "Café tibio",
+      "album": "la-8va-maravilla",
+      "track": 13,
+      "categories": []
+    },
+    {
+      "slug": "la-8va-maravilla-ese-labial",
+      "title": "Ese labial",
+      "album": "la-8va-maravilla",
+      "track": 14,
+      "categories": [
+        "perreo"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-di-amen",
+      "title": "Di amén",
+      "album": "la-8va-maravilla",
+      "track": 15,
+      "categories": [
+        "introspeccion"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-misterio",
+      "title": "Misterio",
+      "album": "la-8va-maravilla",
+      "track": 16,
+      "categories": []
+    },
+    {
+      "slug": "la-8va-maravilla-en-vivo",
+      "title": "En vivo",
+      "album": "la-8va-maravilla",
+      "track": 17,
+      "categories": []
+    },
+    {
+      "slug": "la-8va-maravilla-cuanto-cuesta",
+      "title": "Cuánto cuesta",
+      "album": "la-8va-maravilla",
+      "track": 18,
+      "categories": [
+        "flex"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-si-estuvieras-aqui",
+      "title": "Si estuvieras aquí",
+      "album": "la-8va-maravilla",
+      "track": 19,
+      "categories": [
+        "desamor"
+      ]
+    },
+    {
+      "slug": "la-8va-maravilla-vigente",
+      "title": "Vigente",
+      "album": "la-8va-maravilla",
+      "track": 20,
+      "categories": [
+        "flex"
+      ]
+    }
+  ],
+  "tops": [
+    {
+      "id": "amor",
+      "title": "Top amor",
+      "slugs": [
+        "el-fenomeno-por-amar-a-ciegas",
+        "sentimiento-elegancia-maldad-contigo-quiero-amores",
+        "el-fenomeno-chica-virtual",
+        "historias-de-un-capricornio-te-esperare",
+        "los-favoritos-2-5-si-te-veo",
+        "sentimiento-elegancia-mas-maldad-alv"
+      ]
+    },
+    {
+      "id": "desamor",
+      "title": "Top desamor",
+      "slugs": [
+        "historias-de-un-capricornio-sigues-con-el",
+        "historias-de-un-capricornio-memoria-rota",
+        "historias-de-un-capricornio-infeliz",
+        "el-fenomeno-fuiste-tu-quien-perdio",
+        "los-favoritos-2-payaso"
+      ]
+    },
+    {
+      "id": "perreo",
+      "title": "Top perreo",
+      "slugs": [
+        "el-fenomeno-pa-que-la-pases-bien",
+        "los-favoritos-50-sombras-de-austin",
+        "los-favoritos-tu-cuerpo-me-hace-bien",
+        "ares-el-granjero",
+        "sr-santos-la-jumpa",
+        "el-fenomeno-agresivo-3"
+      ]
+    },
+    {
+      "id": "bichos",
+      "title": "Top bichos",
+      "slugs": [
+        "sentimiento-elegancia-maldad-gucci-boys-club",
+        "los-favoritos-2-5-capos-y-bichotes",
+        "papi-arca-bff",
+        "sr-santos-2-gohan-y-goku",
+        "papi-arca-la-franquicia"
+      ]
+    },
+    {
+      "id": "calle",
+      "title": "Top calle",
+      "slugs": [
+        "ares-mi-primer-kilo",
+        "sentimiento-elegancia-maldad-hace-mucho-tiempo",
+        "sentimiento-elegancia-mas-maldad-la-chamba",
+        "los-favoritos-2-5-flow-violento",
+        "ares-pa-morir-se-nace"
+      ]
+    },
+    {
+      "id": "flex",
+      "title": "Top flex",
+      "slugs": [
+        "ares-original",
+        "sr-santos-la-jumpa",
+        "sentimiento-elegancia-mas-maldad-los-roques",
+        "ares-corte-porte-y-elegancia",
+        "sentimiento-elegancia-maldad-pakas-de-100"
+      ]
+    },
+    {
+      "id": "introspeccion",
+      "title": "Top introspección",
+      "slugs": [
+        "sentimiento-elegancia-maldad-hace-mucho-tiempo",
+        "historias-de-un-capricornio-mi-testimonio",
+        "sr-santos-sin-scotti",
+        "historias-de-un-capricornio-invicto",
+        "sr-santos-2-suenos-de-grandeza"
+      ]
+    }
+  ]
+}
