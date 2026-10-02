@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { SongIndex } from "@/components/site";
+import { PageHeader, SongIndex } from "@/components/site";
 import { searchSongs } from "@/lib/catalog";
 
 export const metadata: Metadata = {
@@ -17,26 +17,23 @@ export default async function SearchPage({
 
   return (
     <main className="mx-auto max-w-6xl px-5 py-14">
-      <h1 className="font-serif text-5xl">Buscar</h1>
+      <PageHeader title="Buscar" />
       <form action="/buscar" className="mt-8">
         <label className="sr-only" htmlFor="buscar-q">
           Buscar
         </label>
         <div className="flex max-w-xl">
-        <input
-          id="buscar-q"
-          name="q"
-          defaultValue={query}
-          placeholder="Canción, disco o tema"
-          className="min-w-0 flex-1 border border-line bg-paper px-4 py-3 text-lg outline-none placeholder:text-mute focus:border-gold"
-        />
-        <button
-          type="submit"
-          className="border border-l-0 border-line px-4 text-xs uppercase tracking-[0.16em] text-gold hover:border-gold"
-        >
-          Buscar
-        </button>
-      </div>
+          <input
+            id="buscar-q"
+            name="q"
+            defaultValue={query}
+            placeholder="Canción, disco o tema"
+            className="h-12 min-w-0 flex-1 border border-line bg-paper px-4 text-lg outline-none placeholder:text-mute focus:border-gold"
+          />
+          <button type="submit" className="btn btn-solid -ml-px h-12">
+            Buscar
+          </button>
+        </div>
       </form>
       {query ? (
         <div className="mt-10">

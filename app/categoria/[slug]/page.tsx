@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { SongIndex } from "@/components/site";
+import { PageHeader, SongIndex } from "@/components/site";
 import { categories, categorySongs, getCategory, songAlbum } from "@/lib/catalog";
 
 type Params = { slug: string };
@@ -32,9 +32,9 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
 
   return (
     <main className="mx-auto max-w-6xl px-5 py-14">
-      <p className="text-xs uppercase tracking-[0.28em] text-gold">{items.length} temas</p>
-      <h1 className="mt-3 font-serif text-5xl">{category.name}</h1>
-      <p className="mt-4 max-w-xl text-lg text-mute">{category.line}</p>
+      <PageHeader kicker={`${items.length} temas`} title={category.name}>
+        {category.line}
+      </PageHeader>
       <div className="mt-10">
         <SongIndex items={items} showAlbum />
       </div>

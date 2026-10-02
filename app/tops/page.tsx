@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PageHeader } from "@/components/site";
 import { getCategory, getSong, songAlbum, tops } from "@/lib/catalog";
 
 export const metadata: Metadata = {
@@ -9,10 +10,9 @@ export const metadata: Metadata = {
 export default function TopsPage() {
   return (
     <main className="mx-auto max-w-6xl px-5 py-14">
-      <h1 className="font-serif text-5xl">Tops</h1>
-      <p className="mt-4 max-w-xl text-lg text-mute">
+      <PageHeader title="Tops">
         Selección editorial dentro de cada tema. El orden es de lectura, no de streams.
-      </p>
+      </PageHeader>
       <div className="mt-12 space-y-14">
         {tops.map((top) => {
           const category = getCategory(top.id);

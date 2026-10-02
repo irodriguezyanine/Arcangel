@@ -21,31 +21,45 @@ export default function Home() {
   return (
     <main>
       <section className="border-b border-line">
-        <div className="mx-auto grid max-w-6xl items-end gap-10 px-5 py-16 md:grid-cols-[minmax(0,1fr)_18rem] md:py-24">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 md:grid-cols-[minmax(0,1fr)_17rem] md:py-20 lg:grid-cols-[minmax(0,1fr)_20rem]">
           <div>
-            <p className="text-xs uppercase tracking-[0.32em] text-gold">
-              Austin
-            </p>
-            <h1 className="mt-4 font-serif text-6xl tracking-tight md:text-8xl">Arcángel</h1>
+            <p className="text-[11px] font-medium uppercase tracking-[0.32em] text-gold">Austin</p>
+            <h1 className="mt-4 font-serif text-6xl leading-[0.92] tracking-tight text-balance md:text-8xl">
+              Arcángel
+            </h1>
             <p className="mt-6 max-w-xl text-lg leading-8 text-mute">
               Archivo de La Maravilla. {listed.length} temas de {albums.length} discos,
               leídos por amor, perreo, bichos, calle y flex.
             </p>
-            <p className="mt-4 text-sm text-mute">
-              {classified} con tema · {unclassifiedSongs().length} sin clasificar
-            </p>
+            <dl className="mt-8 grid max-w-lg grid-cols-3 gap-4 border-t border-line pt-6">
+              <div>
+                <dt className="text-[11px] font-medium uppercase tracking-[0.16em] text-mute">Temas</dt>
+                <dd className="mt-1 font-serif text-3xl tabular-nums">{listed.length}</dd>
+              </div>
+              <div>
+                <dt className="text-[11px] font-medium uppercase tracking-[0.16em] text-mute">Con tema</dt>
+                <dd className="mt-1 font-serif text-3xl tabular-nums">{classified}</dd>
+              </div>
+              <div>
+                <dt className="text-[11px] font-medium uppercase tracking-[0.16em] text-mute">Sin tema</dt>
+                <dd className="mt-1 font-serif text-3xl tabular-nums">{unclassifiedSongs().length}</dd>
+              </div>
+            </dl>
           </div>
           <figure>
-            <img
-              src="/arcangel-2023.png"
-              alt="Arcángel durante una entrevista en 2023"
-              className="aspect-[3/4] w-full object-cover object-top"
-            />
-            <figcaption className="mt-2 text-xs leading-5 text-mute">
+            <div className="relative">
+              <div className="absolute -left-3 -top-3 hidden h-full w-full border border-gold/35 sm:block" />
+              <img
+                src="/arcangel-2023.png"
+                alt="Arcángel durante una entrevista en 2023"
+                className="relative aspect-[3/4] w-full object-cover object-[center_18%]"
+              />
+            </div>
+            <figcaption className="mt-3 text-xs leading-5 text-mute">
               2023.{" "}
               <a
                 href="https://commons.wikimedia.org/wiki/File:Arc%C3%A1ngel_2023_Interview_-_Tony_Dandrades.png"
-                className="underline decoration-line underline-offset-2 hover:text-ink"
+                className="underline decoration-line underline-offset-4 hover:text-ink"
               >
                 Tony Dandrades
               </a>
@@ -67,11 +81,11 @@ export default function Home() {
             <Link
               key={category.id}
               href={`/categoria/${category.id}`}
-              className="border border-line bg-paper p-4 transition duration-200 hover:-translate-y-0.5 hover:border-gold"
+              className="flex min-h-40 flex-col border border-line bg-paper p-5 transition duration-200 hover:-translate-y-0.5 hover:border-gold"
             >
-              <p className="font-serif text-2xl">{category.name}</p>
+              <p className="font-serif text-2xl tracking-tight">{category.name}</p>
               <p className="mt-2 text-sm leading-6 text-mute">{category.line}</p>
-              <p className="mt-4 text-xs uppercase tracking-[0.16em] text-gold">
+              <p className="mt-auto pt-5 font-serif text-3xl tabular-nums text-gold">
                 {categorySongs(category.id).length}
               </p>
             </Link>

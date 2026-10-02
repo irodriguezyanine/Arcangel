@@ -70,10 +70,10 @@ export function SiteHeader({
       >
         Saltar al contenido
       </a>
-      <div className="mx-auto flex max-w-6xl items-center gap-4 px-5 py-3">
-        <Link href="/" className="leading-none">
-          <span className="block font-serif text-2xl tracking-tight">Arcángel</span>
-          <span className="mt-1 block text-[10px] uppercase tracking-[0.28em] text-gold">
+      <div className="mx-auto flex h-16 max-w-6xl items-center gap-6 px-5">
+        <Link href="/" className="flex items-baseline gap-3 leading-none">
+          <span className="font-serif text-[1.7rem] tracking-tight">Arcángel</span>
+          <span className="hidden text-[10px] font-medium uppercase tracking-[0.28em] text-gold sm:block">
             La Maravilla
           </span>
         </Link>
@@ -96,9 +96,12 @@ export function SiteHeader({
           <NavLink href="/tops" active={pathname === "/tops"}>
             Tops
           </NavLink>
+          <NavLink href="/ranking" active={pathname === "/ranking"}>
+            Ranking
+          </NavLink>
         </nav>
 
-        <form action="/buscar" className="ml-auto hidden md:flex">
+        <form action="/buscar" className="ml-auto hidden items-center md:flex">
           <label className="sr-only" htmlFor="q">
             Buscar canción
           </label>
@@ -106,19 +109,16 @@ export function SiteHeader({
             id="q"
             name="q"
             placeholder="Canción o disco"
-            className="w-44 border border-line bg-paper px-3 py-2 text-sm text-ink outline-none transition placeholder:text-mute focus:border-gold"
+            className="h-10 w-48 border border-line bg-paper px-3 text-sm text-ink outline-none transition placeholder:text-mute focus:border-gold"
           />
-          <button
-            type="submit"
-            className="border border-l-0 border-line px-3 py-2 text-xs uppercase tracking-[0.16em] text-gold transition hover:bg-gold hover:text-bg"
-          >
+          <button type="submit" className="btn btn-solid -ml-px">
             Buscar
           </button>
         </form>
 
         <button
           type="button"
-          className="ml-auto border border-line px-3 py-2 text-xs uppercase tracking-[0.16em] text-gold md:hidden"
+          className="btn btn-line ml-auto md:hidden"
           aria-expanded={open === "movil"}
           aria-controls="menu-movil"
           onClick={() => toggle("movil")}
@@ -192,6 +192,9 @@ export function SiteHeader({
           <Link href="/tops" className="block border-b border-line px-5 py-4 font-serif text-2xl">
             Tops
           </Link>
+          <Link href="/ranking" className="block border-b border-line px-5 py-4 font-serif text-2xl">
+            Ranking
+          </Link>
           <p className="px-5 pt-4 text-xs uppercase tracking-[0.18em] text-gold">Discos</p>
           <div className="px-2 py-2">
             {[...albums].reverse().map((album) => (
@@ -243,12 +246,13 @@ function MenuButton({
       aria-expanded={expanded}
       onMouseEnter={onOpen}
       onClick={onClick}
-      className={`px-3 py-2 text-sm transition ${
+      className={`relative px-3 py-2 text-sm transition ${
         expanded || active ? "text-gold" : "text-mute hover:text-ink"
       }`}
     >
       {label}
       <span className="ml-1 inline-block text-[10px]">{expanded ? "▴" : "▾"}</span>
+      {active ? <span className="absolute inset-x-3 bottom-1 h-px bg-gold" /> : null}
     </button>
   );
 }
@@ -265,9 +269,10 @@ function NavLink({
   return (
     <Link
       href={href}
-      className={`px-3 py-2 text-sm transition ${active ? "text-gold" : "text-mute hover:text-ink"}`}
+      className={`relative px-3 py-2 text-sm transition ${active ? "text-gold" : "text-mute hover:text-ink"}`}
     >
       {children}
+      {active ? <span className="absolute inset-x-3 bottom-1 h-px bg-gold" /> : null}
     </Link>
   );
 }

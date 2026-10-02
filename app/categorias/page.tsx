@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { PageHeader } from "@/components/site";
 import { categories, categorySongs, unclassifiedSongs } from "@/lib/catalog";
 
 export const metadata: Metadata = {
@@ -9,13 +10,13 @@ export const metadata: Metadata = {
 export default function CategoriesPage() {
   return (
     <main className="mx-auto max-w-6xl px-5 py-14">
-      <h1 className="font-serif text-5xl">Temas</h1>
+      <PageHeader title="Temas" />
       <div className="mt-10 grid gap-4 md:grid-cols-2">
         {categories.map((category) => (
           <Link
             key={category.id}
             href={`/categoria/${category.id}`}
-            className="border border-line bg-paper p-6 hover:border-gold"
+            className="flex min-h-36 flex-col border border-line bg-paper p-6 transition hover:-translate-y-0.5 hover:border-gold"
           >
             <div className="flex items-baseline justify-between gap-4">
               <h2 className="font-serif text-3xl">{category.name}</h2>
