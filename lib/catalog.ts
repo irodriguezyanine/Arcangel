@@ -143,3 +143,24 @@ export function kindLabel(kind: string) {
   if (kind === "colaborativo") return "Colaborativo";
   return "Estudio";
 }
+
+export function albumNeighbors(song: Song) {
+  const list = albumSongs(song.album);
+  const index = list.findIndex((item) => item.slug === song.slug);
+  return {
+    prev: index > 0 ? list[index - 1] : undefined,
+    next: index >= 0 && index < list.length - 1 ? list[index + 1] : undefined,
+  };
+}
+
+export function relatedSongs(song: Song, limit = 6) {
+  if (song.categories.length === 0) return [];
+  return songs
+    .filter(
+      (item) =>
+        item.slug !== song.slug &&
+        isListed(item) &&
+        item.categories.some((id) => song.categories.includes(id)),
+    )
+    .slice(0, limit);
+}

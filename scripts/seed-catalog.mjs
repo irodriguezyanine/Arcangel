@@ -567,7 +567,7 @@ const tops = [
 const catalog = {
   artist: {
     name: "Arcángel",
-    legalName: "Austin Agustín Santos",
+    legalName: "Austin",
     aka: "La Maravilla",
     born: "1985-12-23",
   },

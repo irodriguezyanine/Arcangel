@@ -21,18 +21,37 @@ export default function Home() {
   return (
     <main>
       <section className="border-b border-line">
-        <div className="mx-auto max-w-6xl px-5 py-16 md:py-24">
-          <p className="text-xs uppercase tracking-[0.32em] text-gold">
-            Austin Agustín Santos
-          </p>
-          <h1 className="mt-4 font-serif text-6xl tracking-tight md:text-8xl">Arcángel</h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-mute">
-            Archivo de La Maravilla. {listed.length} temas de {albums.length} discos,
-            leídos por amor, perreo, bichos, calle y flex.
-          </p>
-          <p className="mt-4 text-sm text-mute">
-            {classified} con tema · {unclassifiedSongs().length} sin clasificar
-          </p>
+        <div className="mx-auto grid max-w-6xl items-end gap-10 px-5 py-16 md:grid-cols-[minmax(0,1fr)_18rem] md:py-24">
+          <div>
+            <p className="text-xs uppercase tracking-[0.32em] text-gold">
+              Austin
+            </p>
+            <h1 className="mt-4 font-serif text-6xl tracking-tight md:text-8xl">Arcángel</h1>
+            <p className="mt-6 max-w-xl text-lg leading-8 text-mute">
+              Archivo de La Maravilla. {listed.length} temas de {albums.length} discos,
+              leídos por amor, perreo, bichos, calle y flex.
+            </p>
+            <p className="mt-4 text-sm text-mute">
+              {classified} con tema · {unclassifiedSongs().length} sin clasificar
+            </p>
+          </div>
+          <figure>
+            <img
+              src="/arcangel-2023.png"
+              alt="Arcángel durante una entrevista en 2023"
+              className="aspect-[3/4] w-full object-cover object-top"
+            />
+            <figcaption className="mt-2 text-xs leading-5 text-mute">
+              2023.{" "}
+              <a
+                href="https://commons.wikimedia.org/wiki/File:Arc%C3%A1ngel_2023_Interview_-_Tony_Dandrades.png"
+                className="underline decoration-line underline-offset-2 hover:text-ink"
+              >
+                Tony Dandrades
+              </a>
+              , CC BY 3.0.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
@@ -48,7 +67,7 @@ export default function Home() {
             <Link
               key={category.id}
               href={`/categoria/${category.id}`}
-              className="border border-line bg-paper p-4 hover:border-gold"
+              className="border border-line bg-paper p-4 transition duration-200 hover:-translate-y-0.5 hover:border-gold"
             >
               <p className="font-serif text-2xl">{category.name}</p>
               <p className="mt-2 text-sm leading-6 text-mute">{category.line}</p>

@@ -1,6 +1,6 @@
 # Arcángel · La Maravilla
 
-Archivo editorial de la discografía de Arcángel (Austin Agustín Santos): discos, temas y tops. No publica letras.
+Archivo editorial de la discografía de Arcángel (Austin): discos, temas y tops. No publica letras.
 
 Los títulos y las fechas salen de [MusicBrainz](https://musicbrainz.org/). Las categorías están en `scripts/seed-catalog.mjs`.
 
