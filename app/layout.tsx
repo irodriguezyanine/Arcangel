@@ -16,13 +16,29 @@ const newsreader = Newsreader({
   variable: "--font-newsreader",
 });
 
+const club =
+  "Club de fans oficial de Alamicos Reggaeton Futbol club de Austin La marashhhh";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://arcangel-pi.vercel.app"),
   title: {
     default: "Arcángel · La Maravilla",
     template: "%s · Arcángel",
   },
-  description:
-    "Archivo editorial de la discografía de Arcángel: temas, tops y categorías. Sin letras.",
+  description: club,
+  openGraph: {
+    title: "Arcángel · La Maravilla",
+    description: club,
+    url: "https://arcangel-pi.vercel.app",
+    siteName: "Arcángel · La Maravilla",
+    locale: "es_ES",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arcángel · La Maravilla",
+    description: club,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
