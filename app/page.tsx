@@ -23,7 +23,9 @@ export default function Home() {
       <section className="border-b border-line">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 md:grid-cols-[minmax(0,1fr)_17rem] md:py-20 lg:grid-cols-[minmax(0,1fr)_20rem]">
           <div>
-            <p className="text-[11px] font-medium uppercase tracking-[0.32em] text-gold">Austin</p>
+            <p className="max-w-xl text-sm font-medium leading-6 tracking-wide text-gold">
+              Club de fans oficial de Alamicos Reggaeton Futbol club de Austin La marashhhh
+            </p>
             <h1 className="mt-4 font-serif text-6xl leading-[0.92] tracking-tight text-balance md:text-8xl">
               Arcángel
             </h1>
