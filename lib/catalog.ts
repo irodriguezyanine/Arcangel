@@ -136,6 +136,7 @@ export function listenUrl(song: Song) {
   return {
     spotify: `https://open.spotify.com/search/${query}`,
     youtube: `https://www.youtube.com/results?search_query=${query}`,
+    letra: `https://genius.com/search?q=${query}`,
   };
 }
 

@@ -89,6 +89,9 @@ export default async function SongPage({ params }: { params: Promise<Params> }) 
           <a href={links.youtube} target="_blank" rel="noreferrer" className="btn btn-line">
             YouTube
           </a>
+          <a href={links.letra} target="_blank" rel="noreferrer" className="btn btn-line">
+            Letra
+          </a>
         </div>
 
         <nav
